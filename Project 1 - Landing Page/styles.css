@@ -6,6 +6,9 @@ body {
     flex-direction: column;
 
     margin: 0;
+    display: flex;
+
+    flex: 1 1 auto;
 
 }
 
@@ -93,7 +96,7 @@ button#signup {
     font-weight: 800;
 }
 
-.h1 {
+.header#first {
     line-height: 100%;
     font-size: 48px;
     font-weight: 800;
@@ -139,16 +142,20 @@ button#signup {
     justify-content: center;
     align-items: center;
     width: 200px;
-    text-align: center;
+    text-align: justify;
+    text-align-last: center;
     line-height: 1;
     gap: 8px;
 
     color: #1F2937;
     font-size: 20px;
+
+
+
 }
 
 
-.twoheader {
+.header#info {
     font-size: 32px;
     font-weight: 800;
     padding: 48px;
@@ -191,7 +198,7 @@ button#signup {
 
 .cta {
     width: 65%;
-    padding: 42px 80px;
+    padding: 42px 100px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
