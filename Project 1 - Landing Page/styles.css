@@ -16,7 +16,7 @@ header {
     justify-content: space-between;
     align-items: center;
     
-    padding: 16px 62px 120px 62px;
+    padding: 0px 62px;
 
 
 }
@@ -54,18 +54,24 @@ a {
     justify-content: center;
    
     gap: 32px;
+    padding-top: 80px;
 
 }
 
 .image {
-    width: 600px;
-    height: 300px;
+    width: 500px;
+    height: 250px;
     border-style: solid;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+
+    background-color: #848c9f;
 }
 
 .content {
-    max-width: 550px;
-    height: 300px;
+    width: 500px;
+    height: 250px;
     border-style: solid;
     display: flex;
     flex-direction: column;
@@ -77,6 +83,15 @@ a {
 
 button {
     width: 75px;
+    background-color: #3773F6;
+    border-style:none;
+    border-radius: 5px;
+    padding: 8px;
+    width: 125px;
+
+    color: white;
+    font-size: 15px;
+    font-weight: 800;
 }
 
 .h1 {
@@ -89,4 +104,52 @@ button {
 .text#header {
     font-size: 18px;
     color: #E7E7EB;
+}
+
+.two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+    
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+}
+
+.cardimg {
+    
+    border: solid #3882F6;
+    border-radius: 15px;
+    
+    width: 200px;
+    height: 200px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    text-align: center;
+    line-height: 1;
+    gap: 8px;
+
+    color: #1F2937;
+    font-size: 20px;
+}
+
+
+.twoheader {
+    font-size: 32px;
+    font-weight: 800;
+    padding: 48px;
 }
