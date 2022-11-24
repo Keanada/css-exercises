@@ -1,7 +1,7 @@
 
 
 body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     display: flex;
     flex-direction: column;
 
@@ -61,7 +61,7 @@ a {
 .image {
     width: 500px;
     height: 250px;
-    border-style: solid;
+
     justify-content: center;
     display: flex;
     align-items: center;
@@ -72,7 +72,6 @@ a {
 .content {
     width: 500px;
     height: 250px;
-    border-style: solid;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -81,7 +80,7 @@ a {
     gap: 8px;
 }
 
-button {
+button#signup {
     width: 75px;
     background-color: #3773F6;
     border-style:none;
@@ -112,6 +111,7 @@ button {
     justify-content: center;
     align-items: center;
 
+    padding-bottom: 148px;
 
     
 }
@@ -152,4 +152,85 @@ button {
     font-size: 32px;
     font-weight: 800;
     padding: 48px;
+    color: #1F2937;
+}
+
+.three {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 120px;
+    background-color: #E5E7EB;
+}
+
+.quote {
+    width: 70%;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1F2937;
+}
+
+.author {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: 800;
+    font-size: 24px;
+    font-style:normal;
+}
+
+.four {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 120px;
+
+}
+
+.cta {
+    width: 65%;
+    padding: 42px 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    background-color:#3883F6;
+    border-radius: 10px;
+
+   
+}
+
+.header#cta {
+    font-weight: 800;
+    font-size: 24px;
+    color: white;
+}
+
+.text#cta {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    color: white;
+}
+
+button#cta {
+     padding: 0 28px;
+     border: solid white;
+     color: white;
+     background-color: #3882F6;
+     border-radius: 10px;
+     font-weight: 800;
+     font-size: 18px;
+
+}
+
+.footer {
+    padding: 32px 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
 }
